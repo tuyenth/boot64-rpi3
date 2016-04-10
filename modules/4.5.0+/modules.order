@@ -135,6 +135,8 @@ kernel/crypto/async_tx/async_raid6_recov.ko
 kernel/drivers/video/backlight/lcd.ko
 kernel/drivers/video/backlight/backlight.ko
 kernel/drivers/video/backlight/generic_bl.ko
+kernel/drivers/char/broadcom/bcm2835-gpiomem.ko
+kernel/drivers/char/broadcom/bcm2835_smi_dev.ko
 kernel/drivers/base/regmap/regmap-i2c.ko
 kernel/drivers/misc/eeprom/at24.ko
 kernel/drivers/misc/eeprom/at25.ko
@@ -448,7 +450,6 @@ kernel/drivers/input/keyboard/stowaway.ko
 kernel/drivers/input/keyboard/sunkbd.ko
 kernel/drivers/input/keyboard/xtkbd.ko
 kernel/drivers/input/matrix-keymap.ko
-kernel/drivers/i2c/algos/i2c-algo-bit.ko
 kernel/drivers/i2c/i2c-mux.ko
 kernel/drivers/media/i2c/msp3400.ko
 kernel/drivers/media/i2c/cx25840/cx25840.ko
@@ -883,18 +884,10 @@ kernel/drivers/isdn/gigaset/gigaset.ko
 kernel/drivers/isdn/gigaset/usb_gigaset.ko
 kernel/drivers/isdn/gigaset/bas_gigaset.ko
 kernel/drivers/isdn/gigaset/ser_gigaset.ko
-kernel/drivers/mmc/host/mmci.ko
-kernel/drivers/mmc/host/sdhci.ko
-kernel/drivers/mmc/host/bcm2835-sdhost.ko
-kernel/drivers/mmc/host/bcm2835-mmc.ko
-kernel/drivers/mmc/host/sdhci-pltfm.ko
-kernel/drivers/mmc/core/mmc_core.ko
-kernel/drivers/mmc/card/mmc_block.ko
 kernel/drivers/crypto/ccp/ccp.ko
 kernel/drivers/crypto/ccp/ccp-crypto.ko
 kernel/drivers/devfreq/governor_simpleondemand.ko
 kernel/drivers/connector/cn.ko
-kernel/drivers/ata/libata.ko
 kernel/drivers/target/target_core_mod.ko
 kernel/drivers/target/target_core_iblock.ko
 kernel/drivers/target/target_core_file.ko
@@ -927,6 +920,7 @@ kernel/drivers/bluetooth/btqca.ko
 kernel/drivers/ssb/ssb.ko
 kernel/drivers/bcma/bcma.ko
 kernel/sound/soundcore.ko
+kernel/sound/sound_firmware.ko
 kernel/sound/core/oss/snd-mixer-oss.ko
 kernel/sound/core/oss/snd-pcm-oss.ko
 kernel/sound/core/snd.ko
